@@ -10,6 +10,11 @@
             android:supportsRtl="true"
             android:theme="@style/Theme.Weather">
         <activity
+                android:name=".ScrollingActivity"
+                android:exported="true"
+                android:label="@string/title_activity_scrolling"
+                android:theme="@style/Theme.Weather.NoActionBar"/>
+        <activity
                 android:name=".MainActivity"
                 android:exported="true">
             <intent-filter>
